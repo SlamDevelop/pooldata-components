@@ -1,6 +1,7 @@
 {
   "name": "pooldata-components",
   "version": "0.1.0",
+  "main": "src/index.ts",
   "private": true,
   "dependencies": {
     "@radix-ui/colors": "^0.1.8",
