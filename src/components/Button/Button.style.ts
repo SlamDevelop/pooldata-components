@@ -26,9 +26,12 @@ const Button = styled('button', {
                 },
             },
             yellow: {
-                backgroundColor: '$colors$yellow',
+                backgroundRGBA: '$rgb$yellow',
+                backgroundOpacity: 0.1,
+                color: '$colors$yellow',
                 '&:hover': { 
-                    backgroundColor: '$colors$yellowDark',
+                    color: '$colors$white',
+                    backgroundColor: '$colors$yellow',
                 },
             },
         },
