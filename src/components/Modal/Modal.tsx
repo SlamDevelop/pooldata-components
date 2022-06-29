@@ -28,7 +28,6 @@ function Content({ children }: ContentProps) {
 
 const Root = DialogPrimitive.Root;
 const Trigger = DialogPrimitive.Trigger;
-const ModalContent = Content;
 const Title = Styled.Title;
 const Description = Styled.Description;
 const Close = DialogPrimitive.Close;
