@@ -10,4 +10,4 @@ export interface ButtonProps {
     onClick?: () => void;
 }
 declare const Button: React.ForwardRefExoticComponent<ButtonProps & React.RefAttributes<HTMLButtonElement>>;
-export { Button };
+export default Button;

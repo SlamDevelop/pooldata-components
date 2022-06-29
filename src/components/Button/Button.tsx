@@ -34,4 +34,4 @@ const Button = React.forwardRef((
     );
 });
 
-export { Button };
+export default Button;
