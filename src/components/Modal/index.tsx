@@ -6,7 +6,6 @@ import {
     Description,
     Close,
 } from "./Modal";
-import type { ContentProps } from "./Modal";
 
 export {
     Root,
