@@ -1,3 +1,4 @@
-import { Button } from "./Button";
+import Button from "./Button";
 import type { ButtonType, ButtonColor } from "./Button";
-export { Button, ButtonType, ButtonColor };
+export default Button;
+export type { ButtonType, ButtonColor };

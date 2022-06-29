@@ -10,4 +10,4 @@ export interface InputProps {
     placeholder?: string;
 }
 declare const Input: ({ id, type, color, value, placeholder }: InputProps) => JSX.Element;
-export { Input };
+export default Input;

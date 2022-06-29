@@ -1,3 +1,4 @@
-import { Input } from "./Input";
+import Input from "./Input";
 import type { InputType, InputColor } from "./Input";
-export { Input, InputType, InputColor };
+export default Input;
+export type { InputType, InputColor };
