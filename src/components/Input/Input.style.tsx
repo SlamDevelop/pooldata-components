@@ -3,7 +3,7 @@ import { styled } from '../../styles/stitches.config';
 const Input = styled('input', {
     all: 'unset',
     flex: '1 0 auto',
-    borderRadius: 4,
+    borderRadius: '$borderRadius$1',
     padding: '0 $space$2',
     fontSize: '$fontSizes$2',
     lineHeight: 1,

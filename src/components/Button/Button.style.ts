@@ -5,7 +5,7 @@ const Button = styled('button', {
     display: 'inline-flex',
     alignItems: 'center',
     justifyContent: 'center',
-    borderRadius: 10,
+    borderRadius: '$borderRadius$2',
     padding: '0 $space$3',
     fontSize: '$fontSizes$3',
     lineHeight: 1,
@@ -26,9 +26,12 @@ const Button = styled('button', {
                 },
             },
             yellow: {
-                backgroundColor: '$colors$yellow',
+                backgroundRGBA: '$rgb$yellow',
+                backgroundOpacity: 0.1,
+                color: '$colors$yellow',
                 '&:hover': { 
-                    backgroundColor: '$colors$yellowDark',
+                    color: '$colors$white',
+                    backgroundColor: '$colors$yellow',
                 },
             },
         },

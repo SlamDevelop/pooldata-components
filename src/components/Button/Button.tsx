@@ -8,7 +8,8 @@ export type ButtonColor = Stitches.VariantProps<typeof Styled.Button>['color'];
 
 export interface ButtonProps {
     children: React.ReactNode;
-    type?: 'button' | 'submit'
+    type?: 'button' | 'submit';
+    className?: string;
     color?: Stitches.VariantProps<typeof Styled.Button>['color'];
     onClick?: () => void;
 }
@@ -17,6 +18,7 @@ const Button = React.forwardRef((
     {
         children,
         type = 'button',
+        className,
         color,
         onClick
     }: ButtonProps,
@@ -26,6 +28,7 @@ const Button = React.forwardRef((
         <Styled.Button
             ref={ref}
             type={type}
+            className={className}
             color={color}
             onClick={onClick}
         >

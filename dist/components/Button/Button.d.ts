@@ -6,6 +6,7 @@ export declare type ButtonColor = Stitches.VariantProps<typeof Styled.Button>['c
 export interface ButtonProps {
     children: React.ReactNode;
     type?: 'button' | 'submit';
+    className?: string;
     color?: Stitches.VariantProps<typeof Styled.Button>['color'];
     onClick?: () => void;
 }

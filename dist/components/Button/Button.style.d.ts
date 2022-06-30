@@ -16,11 +16,16 @@ declare const Button: import("@stitches/react/types/styled-component").StyledCom
         2: string;
         3: string;
         4: string;
+        5: string;
     };
     fontSizes: {
         1: string;
         2: string;
         3: string;
+    };
+    borderRadius: {
+        1: string;
+        2: string;
     };
 }, import("@stitches/react/types/config").DefaultThemeMap, {
     backgroundRGBA: (rgb: string) => {

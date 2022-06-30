@@ -16,11 +16,16 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         2: string;
         3: string;
         4: string;
+        5: string;
     };
     fontSizes: {
         1: string;
         2: string;
         3: string;
+    };
+    borderRadius: {
+        1: string;
+        2: string;
     };
 }, import("@stitches/react/types/config").DefaultThemeMap, {
     backgroundRGBA: (rgb: string) => {
@@ -57,11 +62,16 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         2: string;
         3: string;
         4: string;
+        5: string;
     };
     fontSizes: {
         1: string;
         2: string;
         3: string;
+    };
+    borderRadius: {
+        1: string;
+        2: string;
     };
 }, import("@stitches/react/types/config").DefaultThemeMap, {
     backgroundRGBA: (rgb: string) => {
@@ -89,11 +99,16 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         2: string;
         3: string;
         4: string;
+        5: string;
     };
     fontSizes: {
         1: string;
         2: string;
         3: string;
+    };
+    borderRadius: {
+        1: string;
+        2: string;
     };
 }, import("@stitches/react/types/config").DefaultThemeMap, {
     backgroundRGBA: (rgb: string) => {
@@ -136,11 +151,16 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
             2: string;
             3: string;
             4: string;
+            5: string;
         };
         fontSizes: {
             1: string;
             2: string;
             3: string;
+        };
+        borderRadius: {
+            1: string;
+            2: string;
         };
     }, import("@stitches/react/types/config").DefaultThemeMap, {
         backgroundRGBA: (rgb: string) => {
@@ -167,11 +187,16 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         2: string;
         3: string;
         4: string;
+        5: string;
     };
     fontSizes: {
         1: string;
         2: string;
         3: string;
+    };
+    borderRadius: {
+        1: string;
+        2: string;
     };
 }, import("@stitches/react/types/config").DefaultThemeMap, {
     backgroundRGBA: (rgb: string) => {
@@ -198,11 +223,16 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
             2: string;
             3: string;
             4: string;
+            5: string;
         };
         fontSizes: {
             1: string;
             2: string;
             3: string;
+        };
+        borderRadius: {
+            1: string;
+            2: string;
         };
     }, import("@stitches/react/types/config").DefaultThemeMap, {
         backgroundRGBA: (rgb: string) => {
@@ -235,11 +265,16 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         2: import("@stitches/react/types/theme").Token<"2", string, "space", "">;
         3: import("@stitches/react/types/theme").Token<"3", string, "space", "">;
         4: import("@stitches/react/types/theme").Token<"4", string, "space", "">;
+        5: import("@stitches/react/types/theme").Token<"5", string, "space", "">;
     };
     fontSizes: {
         1: import("@stitches/react/types/theme").Token<"1", string, "fontSizes", "">;
         2: import("@stitches/react/types/theme").Token<"2", string, "fontSizes", "">;
         3: import("@stitches/react/types/theme").Token<"3", string, "fontSizes", "">;
+    };
+    borderRadius: {
+        1: import("@stitches/react/types/theme").Token<"1", string, "borderRadius", "">;
+        2: import("@stitches/react/types/theme").Token<"2", string, "borderRadius", "">;
     };
 }, createTheme: <Argument0 extends string | ({
     rgb?: {
@@ -257,11 +292,16 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         2?: string | number | boolean | undefined;
         3?: string | number | boolean | undefined;
         4?: string | number | boolean | undefined;
+        5?: string | number | boolean | undefined;
     } | undefined;
     fontSizes?: {
         1?: string | number | boolean | undefined;
         2?: string | number | boolean | undefined;
         3?: string | number | boolean | undefined;
+    } | undefined;
+    borderRadius?: {
+        1?: string | number | boolean | undefined;
+        2?: string | number | boolean | undefined;
     } | undefined;
 } & {
     [x: string]: {
@@ -284,11 +324,16 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         2?: string | number | boolean | undefined;
         3?: string | number | boolean | undefined;
         4?: string | number | boolean | undefined;
+        5?: string | number | boolean | undefined;
     } | undefined;
     fontSizes?: {
         1?: string | number | boolean | undefined;
         2?: string | number | boolean | undefined;
         3?: string | number | boolean | undefined;
+    } | undefined;
+    borderRadius?: {
+        1?: string | number | boolean | undefined;
+        2?: string | number | boolean | undefined;
     } | undefined;
 } & {
     [x: string]: {
@@ -317,11 +362,16 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
             2: string;
             3: string;
             4: string;
+            5: string;
         };
         fontSizes: {
             1: string;
             2: string;
             3: string;
+        };
+        borderRadius: {
+            1: string;
+            2: string;
         };
     };
     themeMap: import("@stitches/react/types/config").DefaultThemeMap;
