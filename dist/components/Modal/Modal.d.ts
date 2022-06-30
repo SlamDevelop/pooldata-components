@@ -2,8 +2,9 @@ import React from 'react';
 import * as DialogPrimitive from '@radix-ui/react-dialog';
 export interface ContentProps {
     children: React.ReactNode;
+    className?: string;
 }
-declare function Content({ children }: ContentProps): JSX.Element;
+declare function Content({ children, className }: ContentProps): JSX.Element;
 declare const Root: React.FC<DialogPrimitive.DialogProps>;
 declare const Trigger: React.ForwardRefExoticComponent<DialogPrimitive.DialogTriggerProps & React.RefAttributes<HTMLButtonElement>>;
 declare const Title: import("@stitches/react/types/styled-component").StyledComponent<React.ForwardRefExoticComponent<DialogPrimitive.DialogTitleProps & React.RefAttributes<HTMLHeadingElement>>, {}, {}, import("@stitches/react/types/css-util").CSS<{}, {

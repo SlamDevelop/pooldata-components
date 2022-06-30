@@ -7,14 +7,15 @@ import * as Styled from './Modal.style';
 
 
 export interface ContentProps {
-    children: React.ReactNode
+    children: React.ReactNode;
+    className?: string;
 }
 
-function Content({ children }: ContentProps) {
+function Content({ children, className }: ContentProps) {
     return (
         <DialogPrimitive.Portal>
             <Styled.Overlay />
-            <Styled.Content>
+            <Styled.Content className={className}>
                 <Close asChild>
                     <Styled.CrossButton aria-label="Close">
                         <Cross2Icon />
