@@ -1,6 +1,6 @@
-declare const Input: import("@stitches/react/types/styled-component").StyledComponent<"input", {
-    color?: "blue" | "yellow" | undefined;
-}, {}, import("@stitches/react/types/css-util").CSS<{}, {
+import React from 'react';
+import { ComponentMeta } from '@storybook/react';
+declare const _default: ComponentMeta<import("@stitches/react/types/styled-component").StyledComponent<React.ForwardRefExoticComponent<import("@radix-ui/react-tabs").TabsProps & React.RefAttributes<HTMLDivElement>>, {}, {}, import("@stitches/react/types/css-util").CSS<{}, {
     rgb: {
         blue: string;
         yellow: string;
@@ -35,5 +35,6 @@ declare const Input: import("@stitches/react/types/styled-component").StyledComp
     backgroundOpacity: (opacity: number) => {
         '$$background-color-opacity': string;
     };
-}>>;
-export { Input };
+}>>>;
+export default _default;
+export declare const Custom: () => JSX.Element;

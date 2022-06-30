@@ -15,6 +15,9 @@ export default {
       control: { type: 'radio' },
     },
   },
+  parameters: {
+    layout: 'centered',
+  },
 } as ComponentMeta<typeof Input>;
 
 const Template: ComponentStory<typeof Input> = (args) => <Input {...args} />;

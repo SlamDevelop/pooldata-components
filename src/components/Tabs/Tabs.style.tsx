@@ -14,14 +14,13 @@ const List = styled(TabsPrimitive.List, {
 const Trigger = styled(TabsPrimitive.Trigger, {
     all: 'unset',
     fontFamily: 'inherit',
-    backgroundColor: 'white',
-    padding: '0 20px',
+    padding: '0 $space$4',
     height: 45,
     flex: 1,
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    fontSize: 15,
+    fontSize: '$fontSizes$2',
     lineHeight: 1,
     userSelect: 'none',
     cursor: 'pointer',
@@ -36,8 +35,6 @@ const Trigger = styled(TabsPrimitive.Trigger, {
 
 const Content = styled(TabsPrimitive.Content, {
     flexGrow: 1,
-    padding: 20,
-    backgroundColor: 'white',
     outline: 'none',
 });
 

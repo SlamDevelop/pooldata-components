@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { ComponentStory, ComponentMeta } from '@storybook/react';
+import React from 'react';
+import { ComponentMeta } from '@storybook/react';
 
 import * as Modal from './Modal';
 import Button from '../Button';
@@ -7,7 +7,10 @@ import Button from '../Button';
 export default {
   title: 'Example/Modal',
   component: Modal.Root,
-  subcomponents: { Button }
+  subcomponents: { Button },
+  parameters: {
+    layout: 'centered',
+  },
 } as ComponentMeta<typeof Modal.Root>;
 
 
