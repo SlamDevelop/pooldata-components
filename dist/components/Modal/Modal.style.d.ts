@@ -7,7 +7,10 @@ declare const Overlay: import("@stitches/react/types/styled-component").StyledCo
     };
     colors: {
         white: string;
+        blueLight: string;
         blue: string;
+        blueDark: string;
+        yellowLight: string;
         yellow: string;
         yellowDark: string;
     };
@@ -43,7 +46,10 @@ declare const Content: import("@stitches/react/types/styled-component").StyledCo
     };
     colors: {
         white: string;
+        blueLight: string;
         blue: string;
+        blueDark: string;
+        yellowLight: string;
         yellow: string;
         yellowDark: string;
     };
@@ -79,7 +85,10 @@ declare const Title: import("@stitches/react/types/styled-component").StyledComp
     };
     colors: {
         white: string;
+        blueLight: string;
         blue: string;
+        blueDark: string;
+        yellowLight: string;
         yellow: string;
         yellowDark: string;
     };
@@ -115,7 +124,10 @@ declare const Description: import("@stitches/react/types/styled-component").Styl
     };
     colors: {
         white: string;
+        blueLight: string;
         blue: string;
+        blueDark: string;
+        yellowLight: string;
         yellow: string;
         yellowDark: string;
     };
@@ -151,7 +163,10 @@ declare const CrossButton: import("@stitches/react/types/styled-component").Styl
     };
     colors: {
         white: string;
+        blueLight: string;
         blue: string;
+        blueDark: string;
+        yellowLight: string;
         yellow: string;
         yellowDark: string;
     };

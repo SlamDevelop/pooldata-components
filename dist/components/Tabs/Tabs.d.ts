@@ -6,7 +6,10 @@ declare const Root: import("@stitches/react/types/styled-component").StyledCompo
     };
     colors: {
         white: string;
+        blueLight: string;
         blue: string;
+        blueDark: string;
+        yellowLight: string;
         yellow: string;
         yellowDark: string;
     };
@@ -42,7 +45,10 @@ declare const List: import("@stitches/react/types/styled-component").StyledCompo
     };
     colors: {
         white: string;
+        blueLight: string;
         blue: string;
+        blueDark: string;
+        yellowLight: string;
         yellow: string;
         yellowDark: string;
     };
@@ -78,7 +84,10 @@ declare const Trigger: import("@stitches/react/types/styled-component").StyledCo
     };
     colors: {
         white: string;
+        blueLight: string;
         blue: string;
+        blueDark: string;
+        yellowLight: string;
         yellow: string;
         yellowDark: string;
     };
@@ -114,7 +123,10 @@ declare const Content: import("@stitches/react/types/styled-component").StyledCo
     };
     colors: {
         white: string;
+        blueLight: string;
         blue: string;
+        blueDark: string;
+        yellowLight: string;
         yellow: string;
         yellowDark: string;
     };

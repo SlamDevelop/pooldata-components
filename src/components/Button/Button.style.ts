@@ -6,6 +6,7 @@ const Button = styled('button', {
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: '$borderRadius$2',
+    color: '$colors$white',
     padding: '0 $space$3',
     fontSize: '$fontSizes$3',
     lineHeight: 1,
@@ -17,21 +18,21 @@ const Button = styled('button', {
     variants: {
         color: {
             blue: {
-                backgroundRGBA: '$rgb$blue',
-                backgroundOpacity: 0.1,
-                color: '$colors$blue',
+                backgroundColor: '$colors$blue',
                 '&:hover': { 
-                    color: '$colors$white',
-                    backgroundColor: '$colors$blue',
+                    backgroundColor: '$colors$blueLight',
+                },
+                '&:active': { 
+                    backgroundColor: '$colors$blueDark',
                 },
             },
             yellow: {
-                backgroundRGBA: '$rgb$yellow',
-                backgroundOpacity: 0.1,
-                color: '$colors$yellow',
+                backgroundColor: '$colors$yellow',
                 '&:hover': { 
-                    color: '$colors$white',
-                    backgroundColor: '$colors$yellow',
+                    backgroundColor: '$colors$yellowLight',
+                },
+                '&:active': { 
+                    backgroundColor: '$colors$yellowDark',
                 },
             },
         },

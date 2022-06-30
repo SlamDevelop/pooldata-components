@@ -7,7 +7,10 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
     };
     colors: {
         white: string;
+        blueLight: string;
         blue: string;
+        blueDark: string;
+        yellowLight: string;
         yellow: string;
         yellowDark: string;
     };
@@ -53,7 +56,10 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
     };
     colors: {
         white: string;
+        blueLight: string;
         blue: string;
+        blueDark: string;
+        yellowLight: string;
         yellow: string;
         yellowDark: string;
     };
@@ -90,7 +96,10 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
     };
     colors: {
         white: string;
+        blueLight: string;
         blue: string;
+        blueDark: string;
+        yellowLight: string;
         yellow: string;
         yellowDark: string;
     };
@@ -142,7 +151,10 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         };
         colors: {
             white: string;
+            blueLight: string;
             blue: string;
+            blueDark: string;
+            yellowLight: string;
             yellow: string;
             yellowDark: string;
         };
@@ -178,7 +190,10 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
     };
     colors: {
         white: string;
+        blueLight: string;
         blue: string;
+        blueDark: string;
+        yellowLight: string;
         yellow: string;
         yellowDark: string;
     };
@@ -214,7 +229,10 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         };
         colors: {
             white: string;
+            blueLight: string;
             blue: string;
+            blueDark: string;
+            yellowLight: string;
             yellow: string;
             yellowDark: string;
         };
@@ -256,7 +274,10 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
     };
     colors: {
         white: import("@stitches/react/types/theme").Token<"white", string, "colors", "">;
+        blueLight: import("@stitches/react/types/theme").Token<"blueLight", string, "colors", "">;
         blue: import("@stitches/react/types/theme").Token<"blue", string, "colors", "">;
+        blueDark: import("@stitches/react/types/theme").Token<"blueDark", string, "colors", "">;
+        yellowLight: import("@stitches/react/types/theme").Token<"yellowLight", string, "colors", "">;
         yellow: import("@stitches/react/types/theme").Token<"yellow", string, "colors", "">;
         yellowDark: import("@stitches/react/types/theme").Token<"yellowDark", string, "colors", "">;
     };
@@ -283,7 +304,10 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
     } | undefined;
     colors?: {
         white?: string | number | boolean | undefined;
+        blueLight?: string | number | boolean | undefined;
         blue?: string | number | boolean | undefined;
+        blueDark?: string | number | boolean | undefined;
+        yellowLight?: string | number | boolean | undefined;
         yellow?: string | number | boolean | undefined;
         yellowDark?: string | number | boolean | undefined;
     } | undefined;
@@ -315,7 +339,10 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
     } | undefined;
     colors?: {
         white?: string | number | boolean | undefined;
+        blueLight?: string | number | boolean | undefined;
         blue?: string | number | boolean | undefined;
+        blueDark?: string | number | boolean | undefined;
+        yellowLight?: string | number | boolean | undefined;
         yellow?: string | number | boolean | undefined;
         yellowDark?: string | number | boolean | undefined;
     } | undefined;
@@ -353,7 +380,10 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         };
         colors: {
             white: string;
+            blueLight: string;
             blue: string;
+            blueDark: string;
+            yellowLight: string;
             yellow: string;
             yellowDark: string;
         };

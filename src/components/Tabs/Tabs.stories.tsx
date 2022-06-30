@@ -37,3 +37,8 @@ export const Custom = () => (
         </Tabs.Content>
     </Tabs.Root>
 );
+Custom.argTypes = {
+    asChild: { table: { disable: true } },
+    as: { table: { disable: true } },
+    css: { table: { disable: true } },
+};

@@ -14,7 +14,10 @@ declare const Title: import("@stitches/react/types/styled-component").StyledComp
     };
     colors: {
         white: string;
+        blueLight: string;
         blue: string;
+        blueDark: string;
+        yellowLight: string;
         yellow: string;
         yellowDark: string;
     };
@@ -50,7 +53,10 @@ declare const Description: import("@stitches/react/types/styled-component").Styl
     };
     colors: {
         white: string;
+        blueLight: string;
         blue: string;
+        blueDark: string;
+        yellowLight: string;
         yellow: string;
         yellowDark: string;
     };

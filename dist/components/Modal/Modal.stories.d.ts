@@ -4,12 +4,10 @@ declare const _default: ComponentMeta<React.FC<import("@radix-ui/react-dialog").
 export default _default;
 export interface CustomProps {
     button: string;
-    content: Node;
 }
 export declare const Custom: {
-    ({ button, content }: CustomProps): JSX.Element;
+    ({ button }: CustomProps): JSX.Element;
     args: {
         button: string;
-        content: JSX.Element;
     };
 };

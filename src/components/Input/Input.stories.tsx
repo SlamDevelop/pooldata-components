@@ -27,9 +27,6 @@ Primary.args = {
   placeholder: 'Primary input',
   color: 'blue'
 };
-
-export const Secondary = Template.bind({});
-Secondary.args = {
-  placeholder: 'Secondary input',
-  color: 'yellow'
+Primary.argTypes = {
+  id: { table: { disable: true } },
 };
