@@ -10,6 +10,7 @@ export default {
     type: 'button'
   },
   argTypes: {
+    children: { name: 'buttonText' },
     color: {
       options: ['blue', 'yellow'],
       control: { type: 'radio' },
@@ -27,9 +28,7 @@ Primary.args = {
   children: 'Primary button',
   color: 'blue'
 };
-
-export const Secondary = Template.bind({});
-Secondary.args = {
-  children: 'Secondary button',
-  color: 'yellow'
+Primary.argTypes = {
+  className: { table: { disable: true } },
+  onClick: { table: { disable: true } },
 };

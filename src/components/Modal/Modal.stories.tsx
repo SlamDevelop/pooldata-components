@@ -11,29 +11,28 @@ export default {
   parameters: {
     layout: 'centered',
   },
+  argTypes: {
+    button: { name: 'buttonText' },
+  },
 } as ComponentMeta<typeof Modal.Root>;
 
 
 export interface CustomProps {
   button: string;
-  content: Node;
 }
 
-export const Custom = ({ button, content }: CustomProps) => (
+export const Custom = ({ button }: CustomProps) => (
   <Modal.Root>
     <Modal.Trigger asChild>
       <Button>{button}</Button>
     </Modal.Trigger>
     <Modal.Content>
-      <>
-        {content}
-      </>
+      <div>
+        <h3>Custom content</h3>
+      </div>
     </Modal.Content>
   </Modal.Root>
 );
 Custom.args = {
   button: 'Modal',
-  content: <div>
-    <h3>Custom content</h3>
-  </div>
 };
