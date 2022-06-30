@@ -7,7 +7,10 @@ declare const Button: import("@stitches/react/types/styled-component").StyledCom
     };
     colors: {
         white: string;
+        blueLight: string;
         blue: string;
+        blueDark: string;
+        yellowLight: string;
         yellow: string;
         yellowDark: string;
     };

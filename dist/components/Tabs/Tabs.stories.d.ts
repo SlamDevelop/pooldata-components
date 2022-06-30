@@ -7,7 +7,10 @@ declare const _default: ComponentMeta<import("@stitches/react/types/styled-compo
     };
     colors: {
         white: string;
+        blueLight: string;
         blue: string;
+        blueDark: string;
+        yellowLight: string;
         yellow: string;
         yellowDark: string;
     };
@@ -37,4 +40,23 @@ declare const _default: ComponentMeta<import("@stitches/react/types/styled-compo
     };
 }>>>;
 export default _default;
-export declare const Custom: () => JSX.Element;
+export declare const Custom: {
+    (): JSX.Element;
+    argTypes: {
+        asChild: {
+            table: {
+                disable: boolean;
+            };
+        };
+        as: {
+            table: {
+                disable: boolean;
+            };
+        };
+        css: {
+            table: {
+                disable: boolean;
+            };
+        };
+    };
+};
